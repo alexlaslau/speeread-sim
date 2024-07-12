@@ -1,6 +1,7 @@
 h1{
     text-align: center;
     margin-top:50px;
+    color:white;
 }
 
 #container{
@@ -10,7 +11,7 @@ h1{
 }
 
 #main-body{
-    background-color: #000;
+    background-color: #102C57;
     margin-top:50px;
     padding:50px;
     width:400px;
@@ -24,4 +25,5 @@ body{
     padding:0px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    background: linear-gradient(160deg, #4535C1, #77E4C8);
 }
