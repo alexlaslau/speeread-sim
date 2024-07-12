@@ -1,3 +1,13 @@
+body{
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: linear-gradient(160deg, #4535C1, #77E4C8);
+}
+
+
 h1{
     text-align: center;
     margin-top:50px;
@@ -19,11 +29,23 @@ h1{
     color:white;
 }
 
-body{
-    height:100vh;
-    margin:0px;
-    padding:0px;
+#main-body span.active {
+    background: rgb(119, 119, 29);
+    border-radius:5px;
+}
+
+
+button{
+    margin-top:30px;
+    font-size:3vh;
+    border-radius: 15px;
+    padding:15px;
+    cursor: pointer;
+    transition: 0.3s ease;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    background: linear-gradient(160deg, #4535C1, #77E4C8);
+}
+
+button:hover{
+     background-color: aqua;
 }
