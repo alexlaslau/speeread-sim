@@ -14,7 +14,18 @@ arrayOfWords.forEach(function(word){
 var button = document.getElementById('btn');
 var isRunning = false;
 
+
 button.addEventListener('click', function() {
+    var value = document.getElementById('vitezaCitire').value;
+
+    if(!value){
+        console.log('Introdu viteza citire!');
+        return;
+    }
+
+    wordSelectionSpeed = 60000 / value;
+    console.log(`Time for word per minute - ${wordSelectionSpeed}`);
+
     if (!isRunning){
         isRunning = true;
         const spans = textDiv.querySelectorAll('span');
@@ -32,9 +43,9 @@ button.addEventListener('click', function() {
                 setTimeout(function() {
                     if (spans.length > 0)
                         spans[spans.length - 1].classList.remove('active');
-                }, 100);
+                }, wordSelectionSpeed);
                 isRunning = false;
             }
-        }, 100);
+        }, wordSelectionSpeed);
     }
 });
