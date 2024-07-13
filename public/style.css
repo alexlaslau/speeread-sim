@@ -7,21 +7,42 @@ body{
     background: linear-gradient(160deg, #4535C1, #77E4C8);
 }
 
-h1, h4, p{
+h1, h3, h4, p{
     text-shadow: 1.5px 1.5px 2px #000000;
 }
 h1{
     text-align: center;
-    margin-top:50px;
+    margin-top:10px;
+    color:white;
+}
+
+h3{
+    text-align: center;
+    margin:0px 0px 10px 0px;
+    padding:0px;
     color:white;
 }
 
 h4{
+    text-align: center;
+    margin:0px;
+    padding:0px;
     color:white;
 }
 
+p{
+    margin:15px 0px 15px 0px;
+    padding:0px;
+    font-size: 12px;
+    text-align: center;
+    color:white;
+}
+
+
 input{
     border-radius:5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 #form-container{
@@ -38,27 +59,15 @@ input{
 #main-body{
     background-color: #102C57;
     margin-top:20px;
-    padding:50px;
+    padding:30px;
     width:400px;
     border-radius: 30px;
     color:white;
 }
 
 #main-body span.active {
-    background: rgb(119, 119, 29);
+    background: rgb(145, 145, 35);
     border-radius:5px;
-}
-
-p{
-    margin:0px 0px 20px 0px;
-    padding:0px;
-    font-size: 12px;
-    text-align: center;
-    color:white;
-}
-h4{
-    margin:0px;
-    padding:0px;
 }
 
 button{
@@ -72,6 +81,10 @@ button{
     font-weight: 700;
 }
 
-button:hover{
-     background-color: aqua;
+#start-btn:hover{
+     background-color: rgb(14, 219, 10);
+}
+
+#end-btn:hover{
+    background-color: rgb(226, 45, 14);
 }

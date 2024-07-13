@@ -12,13 +12,17 @@
         
         <div id="form-container">
             <h4>Inserează viteza de citire dorită!</h4>
-            <p>Cuvinte / minut (ex - 250)</p>
-            <input id="vitezaCitire" type="text">
+            <p>Cuvinte / minut (ex - 250)<br>Viteza curentă: </p>
+            <h3 id="viteza">0</h3>
+            <input id="viteza-citire" type="text">
         </div>
 
         <div id="main-body"></div>
-
-        <button id="btn">Start</button>
+        
+        <div id="button-container">
+            <button class="btn" id="start-btn">Start</button>
+            <button class="btn" id="end-btn">Stop</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
