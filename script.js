@@ -14,7 +14,6 @@ arrayOfWords.forEach(function(word){
 var button = document.getElementById('btn');
 var isRunning = false;
 
-
 button.addEventListener('click', function() {
     var value = document.getElementById('vitezaCitire').value;
 
@@ -24,7 +23,7 @@ button.addEventListener('click', function() {
     }
 
     wordSelectionSpeed = 60000 / value;
-    console.log(`Time for word per minute - ${wordSelectionSpeed}`);
+    console.log(`Time for word per minute - ${wordSelectionSpeed}`)
 
     if (!isRunning){
         isRunning = true;

@@ -7,7 +7,9 @@ body{
     background: linear-gradient(160deg, #4535C1, #77E4C8);
 }
 
-
+h1, h4, p{
+    text-shadow: 1.5px 1.5px 2px #000000;
+}
 h1{
     text-align: center;
     margin-top:50px;
